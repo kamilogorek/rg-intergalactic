@@ -1,0 +1,21 @@
+{
+  "name": "flatten-deep",
+  "version": "1.0.0",
+  "description": "Flatten an arbitrarily nested arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": {
+    "name": "Kamil Ogórek",
+    "email": "kamil.ogorek@gmail.com",
+    "url": "http://kamilogorek.pl"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "engines": {
+    "node": ">=0.5.0"
+  }
+}
