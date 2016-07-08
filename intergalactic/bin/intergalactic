@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const argv = require('yargs')
+  .usage('Usage: $0 <path> [options]\n\n<path> – path to a file which contains a message to encrypt')
+  .option('message', {
+    alias: 'm',
+    type: 'string',
+    describe: 'Direct message to encrypt'
+  })
+  .help('help')
+  .argv;
+
+require('../lib/main')(argv);

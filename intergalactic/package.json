@@ -1,0 +1,25 @@
+{
+  "name": "intergalactic",
+  "version": "1.0.0",
+  "description": "Encrypt intergalactic messages and win space battles with aliens",
+  "preferGlobal": true,
+  "bin": "./bin/intergalactic",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": {
+    "name": "Kamil Ogórek",
+    "email": "kamil.ogorek@gmail.com",
+    "url": "http://kamilogorek.pl"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "engines": {
+    "node": ">=0.5.0"
+  },
+  "dependencies": {
+    "yargs": "^4.7.1"
+  }
+}
